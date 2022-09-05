@@ -1,0 +1,149 @@
+:root{
+    --ciano: #20B2AA;
+    --branco: #e8e8e8;
+    --preto: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    padding: 1% 2%;
+    background-color: var(--ciano);
+}
+.logotipo{
+    width: 30%;
+}
+.menu{
+    width: 100%;
+}
+.nome{
+    margin-left: 775px;
+    font-family: 'arial black', arial;
+    font-size: 120%;
+    color: var(--preto);
+    text-align: left;
+}
+.pesquisa{
+    margin-top: 20px;
+}
+input{
+    margin-left: 640px;
+    width: 25%;
+}
+input::placeholder{
+    color: var(--preto);
+}
+button{
+    border: none;
+    padding: 2px 5px;
+    border-radius:5px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: var(--preto);
+}
+.nav{
+    color: var(--preto);
+    font-family: 'arial black', arial;
+    font-size: 100%;
+}
+.nav_link{
+    color: var(--preto);
+    margin-right: 20px;
+}
+.tel{
+    font-family: 'arial black', arial;
+}
+
+.container1{
+    display: flex;
+    padding: 2%;
+    width: 100%;
+    background-color: var(--branco);
+}
+.menu_lateral{
+    background-color: var(--ciano);
+    margin-right: 5%;
+    padding: 5%;
+    display: grid;
+    align-items: center;
+    border-radius: 5px;
+}
+.link{
+    color: var(--preto);
+    font-family: 'arial black';
+}
+.banner_img{
+    width: 100%;
+}
+
+.container2{
+    display: flex;
+    padding: 2%;
+    background-color: var(--branco);
+    justify-content: space-between;
+}
+
+.produtos_box{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+}
+.produtos{
+    background-color: var(--ciano);
+    padding: 2%;
+    width: 100%;
+    margin-right: 2%;  
+    border-radius: 5px;
+}
+.prod{
+    display: flex;
+    align-items: center;
+}
+.capa_jogo{
+    width: 30%;
+    margin-right: 5%;
+}
+.cartaz_evento{
+    width: 20%;
+}
+.jogo_titulo{
+    font-family: 'arial black', arial;
+    font-size: 100%;
+    color: var(--branco);
+    margin-bottom: 5%;
+}
+.jogo_rel{
+    color: var(--branco);
+    margin-bottom: 5%;
+}
+.jogo_info{
+    margin-bottom: 5%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+    background-color: var(--ciano);
+}
+.txt_1{
+    font-family: 'arial black', arial;
+    font-size: 100%;
+    color: var(--branco);
+    margin-bottom: 2%;
+    margin-left: 10%;
+}
+.btn{
+    margin-left: 94%;
+}
